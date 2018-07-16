@@ -2,7 +2,7 @@ client.login(process.env.BOT_TOKEN);
 
 
 const Discord = require("discord.js");
-const client = new Discord.Client();
+const client = new Discord.client();
 
  client.on('message', message => {
     if (message.content.startsWith("رابط")) {
