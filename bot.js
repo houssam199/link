@@ -31,7 +31,7 @@ const client = new Discord.client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Danger Link`,"http://twitch.tv/S-F")
+client.user.setGame(`Danger Link !`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
